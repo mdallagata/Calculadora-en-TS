@@ -59,9 +59,9 @@ const CALCULATE = document
   .getElementById("calculate")
   .addEventListener("click", () => calcularResultado());
 
-let numero1: number;
-let numero2: number;
-let operador: string;
+let numero1: number = 0;
+let numero2: number = 0;
+let operador: string = "";
 let caja: HTMLElement = document.getElementById("resultado");
 
 function clickBtn(valor: string): void {
