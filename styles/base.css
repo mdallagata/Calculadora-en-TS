@@ -10,7 +10,7 @@
 
 body {
   background: #060606;
-  background: radial-gradient(ellipse at center, #060606 0%, #3d807c 33%, #ffffff 100%);
+  background: radial-gradient(ellipse at center, #060606 0%, #2d79c7 33%, #ededed 100%);
 }
 
 h1 {
@@ -31,8 +31,8 @@ h4 {
 .calc {
   margin: 100px auto 0 auto;
   background-color: #1f1f1f;
-  border: outset 6px #3d807c;
-  max-width: 16vw;
+  border: outset 6px #2d79c7;
+  max-width: 18vw;
 }
 
 .resultado {
@@ -78,14 +78,14 @@ h4 {
 
 .childrenEqual {
   color: #ededed;
-  background-color: #3d807c;
+  background-color: #2d79c7;
 }
 
 .childrenEqual:hover {
-  background-color: #27baaa;
+  background-color: #2d7ac796;
 }
 
 .borderChildren, .children, .childrenClaro, .childrenInvisible, .childrenEqual {
   border: groove 1px #1f1f1f;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=base.css.map */

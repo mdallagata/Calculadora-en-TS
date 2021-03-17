@@ -9,32 +9,32 @@
   font-weight: 300;
 }
 body {
-  background: #060606;
+  background: $negro;
   background: -moz-radial-gradient(
     center,
-    #060606 0%,
-    #3d807c 33%,
-    #ffffff 100%
+    $negro 0%,
+    $azul 33%,
+    $blanco-light 100%
   );
   background: -webkit-radial-gradient(
     center,
-    #060606 0%,
-    #3d807c 33%,
-    #ffffff 100%
+    $negro 0%,
+    $azul 33%,
+    $blanco-light 100%
   );
   background: radial-gradient(
     ellipse at center,
-    #060606 0%,
-    #3d807c 33%,
-    #ffffff 100%
+    $negro 0%,
+    $azul 33%,
+    $blanco-light 100%
   );
 }
 h1 {
   font-size: 55px;
-  color: $white-light;
+  color: $blanco-light;
 }
 h4 {
-  color: $white-light;
+  color: $blanco-light;
 }
 
 .transparency {
@@ -46,12 +46,12 @@ h4 {
 .calc {
   margin: 100px auto 0 auto;
   background-color: $gris-claro;
-  border: outset 6px $turquesa;
-  max-width: 16vw;
+  border: outset 6px $azul;
+  max-width: 18vw;
 }
 .resultado {
   margin-top: 10px;
-  color: $white;
+  color: $blanco;
   text-align: end;
   height: 60px;
   width: auto;
@@ -68,7 +68,7 @@ h4 {
   background-color: $negro;
   font-size: 40px;
   text-align: center;
-  color: $white;
+  color: $blanco;
   height: 50px;
   width: 80px;
   margin: 0 1px 1px 1px;
@@ -77,7 +77,7 @@ h4 {
 }
 .childrenClaro {
   @extend .children;
-  color: $white-light;
+  color: $blanco-light;
   background-color: $gris-oscuro;
 }
 .childrenInvisible {
@@ -87,10 +87,10 @@ h4 {
 }
 .childrenEqual {
   @extend .children;
-  color: $white-light;
-  background-color: $turquesa;
+  color: $blanco-light;
+  background-color: $azul;
   &:hover {
-    background-color: $turquesa-fuerte;
+    background-color: $azul-oscuro;
   }
 }
 .borderChildren {
