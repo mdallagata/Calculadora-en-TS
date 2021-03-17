@@ -1,33 +1,33 @@
 var NUM0 = document
     .getElementById("0")
-    .addEventListener("click", function () { return clickBtn(0); });
+    .addEventListener("click", function () { return clickBtn("0"); });
 var NUM1 = document
     .getElementById("1")
-    .addEventListener("click", function () { return clickBtn(1); });
+    .addEventListener("click", function () { return clickBtn("1"); });
 var NUM2 = document
     .getElementById("2")
-    .addEventListener("click", function () { return clickBtn(2); });
+    .addEventListener("click", function () { return clickBtn("2"); });
 var NUM3 = document
     .getElementById("3")
-    .addEventListener("click", function () { return clickBtn(3); });
+    .addEventListener("click", function () { return clickBtn("3"); });
 var NUM4 = document
     .getElementById("4")
-    .addEventListener("click", function () { return clickBtn(4); });
+    .addEventListener("click", function () { return clickBtn("4"); });
 var NUM5 = document
     .getElementById("5")
-    .addEventListener("click", function () { return clickBtn(5); });
+    .addEventListener("click", function () { return clickBtn("5"); });
 var NUM6 = document
     .getElementById("6")
-    .addEventListener("click", function () { return clickBtn(6); });
+    .addEventListener("click", function () { return clickBtn("6"); });
 var NUM7 = document
     .getElementById("7")
-    .addEventListener("click", function () { return clickBtn(7); });
+    .addEventListener("click", function () { return clickBtn("7"); });
 var NUM8 = document
     .getElementById("8")
-    .addEventListener("click", function () { return clickBtn(8); });
+    .addEventListener("click", function () { return clickBtn("8"); });
 var NUM9 = document
     .getElementById("9")
-    .addEventListener("click", function () { return clickBtn(9); });
+    .addEventListener("click", function () { return clickBtn("9"); });
 var DOT = document
     .getElementById(".")
     .addEventListener("click", function () { return clickBtn("."); });

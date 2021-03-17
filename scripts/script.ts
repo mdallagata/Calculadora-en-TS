@@ -1,33 +1,33 @@
 const NUM0 = document
   .getElementById("0")
-  .addEventListener("click", () => clickBtn(0));
+  .addEventListener("click", () => clickBtn("0"));
 const NUM1 = document
   .getElementById("1")
-  .addEventListener("click", () => clickBtn(1));
+  .addEventListener("click", () => clickBtn("1"));
 const NUM2 = document
   .getElementById("2")
-  .addEventListener("click", () => clickBtn(2));
+  .addEventListener("click", () => clickBtn("2"));
 const NUM3 = document
   .getElementById("3")
-  .addEventListener("click", () => clickBtn(3));
+  .addEventListener("click", () => clickBtn("3"));
 const NUM4 = document
   .getElementById("4")
-  .addEventListener("click", () => clickBtn(4));
+  .addEventListener("click", () => clickBtn("4"));
 const NUM5 = document
   .getElementById("5")
-  .addEventListener("click", () => clickBtn(5));
+  .addEventListener("click", () => clickBtn("5"));
 const NUM6 = document
   .getElementById("6")
-  .addEventListener("click", () => clickBtn(6));
+  .addEventListener("click", () => clickBtn("6"));
 const NUM7 = document
   .getElementById("7")
-  .addEventListener("click", () => clickBtn(7));
+  .addEventListener("click", () => clickBtn("7"));
 const NUM8 = document
   .getElementById("8")
-  .addEventListener("click", () => clickBtn(8));
+  .addEventListener("click", () => clickBtn("8"));
 const NUM9 = document
   .getElementById("9")
-  .addEventListener("click", () => clickBtn(9));
+  .addEventListener("click", () => clickBtn("9"));
 const DOT = document
   .getElementById(".")
   .addEventListener("click", () => clickBtn("."));
@@ -64,7 +64,7 @@ let numero2: number;
 let operador: string;
 let caja: HTMLElement = document.getElementById("resultado");
 
-function clickBtn(valor): void {
+function clickBtn(valor: string): void {
   if (caja.innerHTML === "0") {
     caja.innerHTML = "";
   }
