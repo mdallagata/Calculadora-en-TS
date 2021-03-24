@@ -86,7 +86,7 @@ function limpiar(): void {
 
 function calcularResultado(): void {
   numero2 = parseFloat(caja.innerHTML.substring(1));
-  if (operador != undefined) {
+  if (operador != undefined && caja.innerHTML != "0") {
     caja.innerHTML = numero1 + caja.innerHTML + "=";
   }
 
@@ -104,8 +104,14 @@ function calcularResultado(): void {
       break;
     }
     case "/": {
-      caja.innerHTML += numero1 / numero2;
-      break;
+      if (numero1 === 0 || numero2 === 0) {
+        alert("No se puede dividir entre cero");
+        caja.innerHTML = "0";
+        break;
+      } else {
+        caja.innerHTML += numero1 / numero2;
+        break;
+      }
     }
     case "%": {
       caja.innerHTML += (numero2 / 100) * numero1;

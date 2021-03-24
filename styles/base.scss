@@ -96,3 +96,49 @@ h4 {
 .borderChildren {
   border: groove 1px $gris-claro;
 }
+
+@media (min-width: 800px) {
+  .calc {
+    max-width: 43vw;
+  }
+}
+@media (min-width: 1200px) {
+  .calc {
+    max-width: 25vw;
+  }
+}
+@media (min-width: 1415px) {
+  .calc {
+    max-width: 24vw;
+  }
+}
+@media (min-width: 1480px) {
+  .calc {
+    max-width: 23vw;
+  }
+}
+@media (min-width: 1544px) {
+  .calc {
+    max-width: 22vw;
+  }
+}
+@media (min-width: 1631px) {
+  .calc {
+    max-width: 21vw;
+  }
+}
+@media (min-width: 1700px) {
+  .calc {
+    max-width: 20vw;
+  }
+}
+@media (min-width: 1755px) {
+  .calc {
+    max-width: 19vw;
+  }
+}
+@media (min-width: 1800px) {
+  .calc {
+    max-width: 18vw;
+  }
+}
