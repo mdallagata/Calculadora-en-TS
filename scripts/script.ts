@@ -31,7 +31,7 @@ const NUM9 = document
 const DOT = document
   .getElementById(".")
   .addEventListener("click", () => clickBtn("."));
-const SUM = document
+const SUM2 = document
   .getElementById("+")
   .addEventListener("click", () => asignarOperacion("+"));
 const REST = document
